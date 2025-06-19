@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { Header } from '@/components/Header';
 import { PostCard } from '@/components/PostCard';
 import { Footer } from '@/components/Footer';
-import { sanityClient, postsQuery,urlFor } from '@/lib/sanity';
+import { sanityClient, postsQuery} from '@/lib/sanity';
 import type { SanityPost } from '@/types/sanity';
 
 export function HomePage() {
